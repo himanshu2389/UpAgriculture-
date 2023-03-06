@@ -1,0 +1,95 @@
+.home .anime main {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(13, 12, 12);
+    
+  }
+  .home .anime main p{
+    color: rgb(4, 0, 255);
+    
+  }
+  .home .anime main section h3 {
+    font-size: 6rem;
+    font-weight: 50rem;
+    letter-spacing: 1rem;
+    text-shadow: .1rem .1rem .2rem black;
+  }
+  
+  .home .anime main section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color:rgb(244, 140, 3);
+     text-shadow: .2rem .8rem .5rem black; 
+    text-transform: uppercase;
+  }
+  
+  .home .anime main section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  .home .anime main section a {
+    padding: 2rem 3rem;
+    border-radius: .4rem;
+    outline: none;
+    text-transform: uppercase;
+    font-size:2rem;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: .2rem;
+    transition: all 0.5s ease;
+  }
+  
+  .home .anime main section .btnone {
+    background: #fff;
+    color: #000;
+  }
+  
+  .home .anime main section .btnone:hover {
+    background: #418e12;
+    color: white;
+  }
+  
+  .home .anime main section .btntwo {
+    background: #418e12;
+    color: white;
+  }
+  
+  .home .anime main section .btntwo:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  .change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #37b800;
+  }
+  
+  @keyframes changetext {
+    0% {
+      content: "Crop Management";
+    }
+    20% {
+      content: "Fresh Fruits And Vegitables";
+    }
+    35% {
+      content: "Exports Imports";
+    }
+    60% {
+      content: "Post Harvest";
+    }
+    80% {
+      content: "Soil Health Card";
+    }
+    100% {
+      content: "Animal Husbandry Corner";
+    }
+  }
